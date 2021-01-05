@@ -1,4 +1,7 @@
 # OBSoft-2
+Before running the code you will need to create a MySql local Database named "mydb" and create in this database a table "Post" with attributes (userid varchar(8) , id varchar(8), title varchar(500), body varchar(2000))
+
+Description of the files:
 
 Post.py: Implements a class for the Post objects 
 
