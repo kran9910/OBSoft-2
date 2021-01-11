@@ -6,7 +6,7 @@ import mysql.connector
 class Connection(object):
     class __Connection:
         def __init__(self):
-            self.conn = mysql.connector.connect(user='root', password='Kamorio2$', host='127.0.0.1', database='mydb')
+            self.conn = mysql.connector.connect(user='root', password='********', host='127.0.0.1', database='mydb')
             self.cursor = self.conn.cursor()
     instance = None
     def __new__(cls):
